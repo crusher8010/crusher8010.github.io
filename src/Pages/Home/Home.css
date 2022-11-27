@@ -1,0 +1,112 @@
+:root{
+    --primary-app-color: #02203c;
+    --secondary-app-color: #001528;
+}
+
+.home{
+    display: flex;
+    padding-top: 60px;
+    
+    background: linear-gradient(-90deg, var(--primary-app-color), var(--secondary-app-color));
+    
+}
+
+.Im-text-section{
+    padding-top: 52px;
+    text-align: center;
+}
+
+.Im-text{
+    font-family: "Ubuntu";
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+.name-Im-text{
+    color: #fffb00;
+    font-size: 30px;
+}
+
+.Im-text-enthusiastic{
+    font-family: sans-serif;
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.Im-text-subHeading{
+    font-family: "Open sans";
+    color: #fff;
+    font-size: 1.4rem;
+}
+
+.btn-hire-me{
+    font-size: 1.3rem;
+    font-family: "Ubuntu";
+    color: #fff;
+    background: transparent;
+    border-radius: 20px;
+    margin-inline: 12px;
+    padding: 5px 40px;
+    border: 2px solid white;
+    transition: all 0.3s ease-in-out;
+    animation: Anim 1s ease-in-out infinite;
+}
+
+.btn-hire-me:hover{
+    transform: translateY(-5px);
+    background-color: #fffb00;
+    color: #333;
+}
+
+.btn-resume-me {
+    font-size: 1.3rem;
+    font-family: "Ubuntu";
+    color: #fff;
+    background: #fff;
+    color: #333;
+    border-radius: 20px;
+    padding: 5px 40px;
+    margin-inline: 12px;
+    border: 2px solid #333;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-resume-me:hover{
+    transform: translateY(-5px);
+}
+
+.btndiv{
+    margin-bottom: 60px;
+}
+
+@keyframes Anim {
+    0%{
+        transform: scale(1)
+    }
+
+    50%{
+        transform: scale(1.1)
+    }
+
+    100%{
+        transform: scale(1)
+    }
+}
+
+.custom-img{
+    width: 300px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.outerdiv{
+    margin-bottom: 60px;
+}
+
+@media screen and (max-width: 1180px){
+    .btn-hire-me{
+        animation: none;
+    }
+}
