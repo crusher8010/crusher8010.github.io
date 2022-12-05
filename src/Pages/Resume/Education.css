@@ -1,0 +1,40 @@
+.university-name{
+    font-family: "Ubuntu";
+    color: red;
+    font-size: 1.4rem;
+    font-weight: 800;
+}
+
+.university-degree{
+    font-family: 0.8rem;
+    font-weight: 800;
+    font-family: "Ubuntu";
+    color: #1c1c1c;
+    text-transform: uppercase;
+}
+
+.year-passedout{
+    font-family: monospace;
+    font-size: 1rem;
+    background: #fffb00;
+    color: #1c1c1c;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 900px) {
+    .university-name{
+        font-size: 1rem;
+    }
+
+    .university-degree{
+        font-size: 0.9rem;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .resume-new-section{
+        width: 100% !important;
+    }
+}

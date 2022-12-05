@@ -16,6 +16,9 @@
     height: 80px;
     background: linear-gradient(-90deg, var(--primary-app-color), var(--secondary-app-color));
     color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 30;
 }
 
 .logo{
@@ -55,6 +58,7 @@
     }
 
     .nav-links-mob{
+        width: 102vw;
         position: absolute;
         display: block;
         list-style: none;

@@ -1,0 +1,17 @@
+.progress-some{
+    background: red;
+    height: 20px;
+    width: 200px;
+}
+
+.progress-new{
+    background: green;
+    height: 20px;
+}
+
+.language{
+    font-family: "Ubuntu";
+    font-size: 1.5rem;
+    color: #1c1c1c;
+    text-transform: capitalize;
+}

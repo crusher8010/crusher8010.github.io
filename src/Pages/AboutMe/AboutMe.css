@@ -45,6 +45,12 @@
     /* text-align: justify; */
 }
 
+.lottie1{
+    width: 500px;
+    height: 500px;
+    margin: auto;
+}
+
 .few-list{
     font-family: "Ubuntu";
     font-size: 1.2rem;
@@ -54,13 +60,49 @@
     margin-left: 30px;
 }
 
+@media screen and (max-width: 1180px){
+    .about-me-container{
+        flex-direction: column;
+    }
+
+    .about-anim{
+        width: 500px;
+        height: 500px;
+        margin: auto;
+    }
+
+    .lottie1{
+        width: 500px;
+        height: 500px;
+        background: transparent;
+        margin: auto;
+    }
+
+    .some-text-about-me{
+        width: 200%;
+        overflow-wrap: break-word;
+        margin-top: -120px;
+    }
+
+    .few-highlights{
+        width: 500px;
+        text-align: left;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .some-text-about-me{
+        width: 100%;
+        overflow-wrap: normal;
         margin-top: -120px;
     }
 
     .about-anim{
         margin-top: -20px;
+    }
+
+    .few-highlights{
+        width: auto
     }
 }
 
@@ -71,5 +113,9 @@
 
     .why-text-sub{
         font-size: 1.2rem;
+    }
+    
+    .lottie1{
+        z-index: 10;
     }
 }
