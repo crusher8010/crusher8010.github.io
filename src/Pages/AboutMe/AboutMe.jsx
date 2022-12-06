@@ -2,7 +2,7 @@ import "./AboutMe.css";
 
 function AboutMe() {
     return (
-        <div className="about-me-section aboutme-inside my-5">
+        <div className="about-me-section aboutme-inside my-5" id="aboutme">
             <div className="d-flex flex-column">
                 <span className="about-me-text">About me</span>
                 <span className="why-text-sub">Why Choose me?</span>

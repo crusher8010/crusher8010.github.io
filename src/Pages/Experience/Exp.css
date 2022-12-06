@@ -1,0 +1,296 @@
+.web-view{
+    margin-top: 40px;
+    background-color: aliceblue;
+}
+
+.proj1-container{
+    width: 74%;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+    border-radius: 20px;
+    padding: 8px;
+    background: linear-gradient(-90deg, var(--primary-app-color), var(--secondary-app-color));
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.proj1-demo{
+    width: 46%; 
+}
+
+.proj1-demo > div{
+    width: 90%;
+    margin:auto;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.proj1-description{
+    width: 46%;
+    color: #fff;
+}
+
+.proj1-description h1{
+    color: #fffb00;
+    font-size: 1.3rem;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.proj1-description p{
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.proj1-demo-btn{
+    margin-top: 20px;
+}
+
+.proj1-demo-btn button{
+    font-size: 1.1rem;
+    font-family: "Ubuntu";
+    color: #fff;
+    background: transparent;
+    border-radius: 20px;
+    margin-inline: 12px;
+    padding: 5px 40px;
+    border: 2px solid white;
+    transition: all 0.3s ease-in-out;
+    animation: Anim 1s ease-in-out infinite;
+    margin-bottom: 10px;
+}
+
+.proj2-container{
+    width: 74%;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 8px;
+    background: linear-gradient(-90deg, var(--primary-app-color), var(--secondary-app-color));
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.proj2-description{
+    width: 46%;
+    margin-left: 15px;
+    color: #fff;
+}
+
+.proj2-description h1{
+    color: #fffb00;
+    font-size: 1.3rem;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.proj2-description p{
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.proj2-demo{
+    width: 46%; 
+}
+
+.proj2-demo > div{
+    width: 90%;
+    margin:auto;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.proj3-container{
+    width: 74%;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 8px;
+    background: linear-gradient(-90deg, var(--primary-app-color), var(--secondary-app-color));
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.proj3-description{
+    width: 46%;
+    margin-left: 15px;
+    color: #fff;
+}
+
+.proj3-description h1{
+    color: #fffb00;
+    font-size: 1.3rem;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.proj3-description p{
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.proj3-demo{
+    width: 46%; 
+}
+
+.proj3-demo > div{
+    width: 90%;
+    margin:auto;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+@media  screen and (max-width: 1180px) {
+    .proj1-container{
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .proj1-demo{
+        width: 100%;
+        margin: auto;
+    }
+
+    .proj1-demo > div{
+        width: 100%;
+    }
+
+    .proj1-demo > div img{
+        height: 375px;
+    }
+
+    .proj1-description{
+        width: 90%;
+        margin: auto
+    }
+
+    .proj1-description h1{
+        text-align: center;
+        font-size: 1.8rem;
+    }
+
+    .proj1-description p{
+        margin-top: 10px;
+        font-size: 1.6rem;
+    }
+
+    .proj1-demo-btn{
+        width: 90%;
+        margin: auto;
+        margin-top: 15px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .proj1-demo-btn button{
+        font-size: 1.3rem;
+    }
+
+    .proj2-container{
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .proj2-demo{
+        width: 100%;
+        margin: auto;
+        order: -1;
+    }
+
+    .proj2-demo > div{
+        width: 100%;
+    }
+
+    .proj2-demo > div img{
+        height: 375px;
+    }
+
+    .proj2-description{
+        width: 90%;
+        margin: auto
+    }
+
+    .proj2-description h1{
+        text-align: center;
+        font-size: 1.8rem;
+    }
+
+    .proj2-description p{
+        margin-top: 10px;
+        font-size: 1.6rem;
+    }
+
+    .proj2-demo-btn{
+        width: 90%;
+        margin: auto;
+        margin-top: 15px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .proj2-demo-btn button{
+        font-size: 1.3rem;
+    }
+
+    .proj3-container{
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .proj3-demo{
+        width: 100%;
+        margin: auto;
+        order: -1;
+    }
+
+    .proj3-demo > div{
+        width: 100%;
+    }
+
+    .proj3-demo > div img{
+        height: 375px;
+    }
+
+    .proj3-description{
+        width: 90%;
+        margin: auto
+    }
+
+    .proj3-description h1{
+        text-align: center;
+        font-size: 1.8rem;
+    }
+
+    .proj3-description p{
+        margin-top: 10px;
+        font-size: 1.6rem;
+    }
+
+    .proj3-demo-btn{
+        width: 90%;
+        margin: auto;
+        margin-top: 15px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .proj3-demo-btn button{
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 780px){
+    .proj1-container{
+        width: 96%;
+    }
+
+    .proj2-container{
+        width: 96%;
+    }
+
+    .proj3-container{
+        width: 96%;
+    }
+}

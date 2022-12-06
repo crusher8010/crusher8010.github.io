@@ -1,0 +1,68 @@
+.contact-me-part{
+    color: #fff;
+    margin-top: 40px;
+}
+
+.contact-inner-part{
+    padding-block: 90px;
+}
+
+.relative-bg{
+    clip-path: polygon(0 5%, 100% 14%, 100% 80%, 0 96%);
+    background: linear-gradient(-90deg, var(--primary-app-color), var(--secondary-app-color));
+    height: 700px;
+    width: 100%;
+    position: absolute;
+    z-index: -4;
+}
+
+.contact-me-card{
+    background: #1c1c1c;
+    box-shadow: 10px 10px 63px 4px rgb(243 240 240);
+    /* height: 500px; */
+    width: 70%;
+    margin-inline: auto;
+}
+
+.get-in-touch{
+    color: #fff;
+    font-family: "Ubuntu";
+    font-weight: 700;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.input-groups{
+    border: none;
+    border-radius: 10px;
+    padding: 10px 10px;
+    color: #333;
+}
+
+.card-contact-right{
+    background: rgb(0, 7, 61);
+    box-shadow: 10px 3px 33px 4px rgb(243 240 240);
+    border-radius: 20px;
+    /* width: 60%; */
+    padding: 24px;
+}
+
+@media screen and (max-width: 1180px) {
+    .relative-bg{
+        height: 800px;
+    }
+
+    .contact-me-card{
+        flex-direction: column;
+    }
+
+    .left-contact{
+        width: 80%;
+        margin: auto;
+    }
+
+    .my-auto{
+        width: 100%;
+    }
+}

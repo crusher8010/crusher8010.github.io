@@ -5,6 +5,7 @@
   "private": true,
   "dependencies": {
     "@chakra-ui/react": "^2.4.1",
+    "@emailjs/browser": "^3.10.0",
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
     "@testing-library/jest-dom": "^5.16.5",
@@ -13,7 +14,10 @@
     "framer-motion": "^7.6.12",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.4.4",
+    "react-router-hash-link": "^2.4.3",
     "react-scripts": "5.0.1",
+    "typed.js": "^2.0.12",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

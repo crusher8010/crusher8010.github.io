@@ -24,7 +24,7 @@ function Resume(){
     }
 
     return (
-        <div className="resume-outer-section d-flex flex-column">
+        <div className="resume-outer-section d-flex flex-column" id="resume">
             <span className="about-me-text">Resume</span>
             <span className="why-text-sub">My formal bio details</span>
             <div className="resume-new-section row"  style={{width:"70%", marginInline:"auto"}}>
