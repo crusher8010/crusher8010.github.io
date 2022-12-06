@@ -55,7 +55,6 @@ function ContactMe() {
                                 </div>
                                 <div className="input-group my-3 d-flex flex-column">
                                     <input className="btn btn-success" type="submit" value="Send Message" />
-
                                 </div>
                             </form>
                         </div>

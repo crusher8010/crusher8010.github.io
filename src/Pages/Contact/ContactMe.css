@@ -54,6 +54,7 @@
     }
 
     .contact-me-card{
+        width: 80%;
         flex-direction: column;
     }
 
@@ -64,5 +65,17 @@
 
     .my-auto{
         width: 100%;
+    }
+}
+
+@media screen and(max-width: 380px) {
+
+    .contact-me-card{
+        width: 94%;
+        padding: none;
+    }
+
+    .input-groups{
+        padding: 3px 3px;
     }
 }
