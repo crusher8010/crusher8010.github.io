@@ -1,6 +1,7 @@
 import "./ContactMe.css";
 import { useState, useRef } from "react";
 import emailjs from '@emailjs/browser';
+import { Link } from "@chakra-ui/react";
 
 function ContactMe() {
     const [name, setName] = useState("");
@@ -17,12 +18,12 @@ function ContactMe() {
             feedback: message,
         }
         emailjs.send("service_f0do68p", "template_1icd76b", templateparams, "gvNe7r5ssqUQcVacx")
-        .then(function(response) {
-            console.log("Success!", response.status, response.text);
-        },
-        function(error){
-            console.log("Failed...", error);
-        })
+            .then(function (response) {
+                console.log("Success!", response.status, response.text);
+            },
+                function (error) {
+                    console.log("Failed...", error);
+                })
     };
 
     return (
@@ -35,6 +36,10 @@ function ContactMe() {
                     <div className="contact-me-card row">
                         <div className="col-lg-6 col-md-5 col-sm-12 left-contact px-2 py-2">
                             <span className="get-in-touch">Get in touch</span>
+                            <span className="profile-links">
+                                <Link href="https://github.com/crusher8010" isExternal><i className="fa-brands fa-github"></i></Link>
+                                <Link href="https://www.linkedin.com/in/anirudha-mandal-b3ab5a18a/" isExternal><i className="fa-brands fa-linkedin"></i></Link>
+                            </span>
                             <div className="py-5 d-flex justify-content-center lottie2">
                                 <lottie-player className="lottie1" src="https://assets10.lottiefiles.com/packages/lf20_3ktmthuy.json" background="transparent" speed="1" style={{ width: "300px" }} loop autoplay></lottie-player>
                             </div>

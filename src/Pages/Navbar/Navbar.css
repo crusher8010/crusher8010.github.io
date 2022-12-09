@@ -23,6 +23,9 @@
 
 .logo{
     font-size: 2rem;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .nav-links{
