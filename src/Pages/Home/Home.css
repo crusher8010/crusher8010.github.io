@@ -12,6 +12,31 @@
     
 }
 
+.profile-links{
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    font-size: 3rem;
+    gap: 30px;
+}
+
+.fa-github{
+    transition: all 0.3s ease-in-out;
+}
+
+.fa-github:hover{
+    color:#fffb00
+}
+
+.fa-linkedin{
+    transition: all 0.3s ease-in-out;
+}
+
+.fa-linkedin:hover{
+    color:#fffb00
+}
+
+
 .Im-text-section{
     padding-top: 52px;
     text-align: center;
@@ -31,7 +56,7 @@
 
 .Im-text-enthusiastic{
     font-family: sans-serif;
-    color: #fff;
+    color: orange;
     font-size: 2.5rem;
 }
 
@@ -56,7 +81,7 @@
 
 .btn-hire-me:hover{
     transform: translateY(-5px);
-    background-color: #fffb00;
+    background-color: orange;
     color: #333;
 }
 
