@@ -31,6 +31,7 @@
     font-size: 2rem;
     display: flex;
     justify-content: center;
+    padding-top: 25px;
 }
 
 .input-groups{
@@ -48,6 +49,16 @@
     padding: 24px;
 }
 
+.profile-det{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.3rem;
+    gap: 15px;
+    margin-top: 5px;
+}
+
 @media screen and (max-width: 1180px) {
     .relative-bg{
         height: 800px;
@@ -56,6 +67,10 @@
     .contact-me-card{
         width: 80%;
         flex-direction: column;
+    }
+
+    .get-in-touch{
+        padding: none;
     }
 
     .left-contact{

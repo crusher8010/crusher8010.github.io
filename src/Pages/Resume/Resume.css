@@ -1,6 +1,6 @@
 .resume-options-items{
     transition: all 0.3s ease-in-out;
-    padding-block: 24px;
+    padding-block: 35px;
     padding-inline: 24px;
     color: #000;
     cursor: pointer;
@@ -15,7 +15,7 @@
 }
 
 .icons-span{
-    margin-block: 24px;
+    margin-block: 35px;
     margin-inline: 24px;
 }
 
