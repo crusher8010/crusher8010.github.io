@@ -42,8 +42,8 @@ function Exp() {
                         <h4 style={{fontSize:"25px", marginTop:"10px", fontWeight:"400"}}>Summary:</h4>
                         <h5 style={{fontSize:"18px",marginTop:"10px"}}>This is a Fashion E-commerce Website. In this website I have shown complete working cart functionality. I have also made Admin side where you can see the customers list and do crud operations there.</h5>
                         <div className="d-flex flex-row justify-content-center mt-5 toolbtndiv">
-                            <Link href="https://github.com/crusher8010/Chargebee-Website-Clone" isExternal><button className="btn-sourcecode">View SourceCode</button></Link>
-                            <Link href="https://resonant-licorice-2615de.netlify.app/" isExternal><button className="btn-getdemo">Get Demo</button></Link>
+                            <Link href="https://github.com/crusher8010/E-shop-e-commerce" isExternal><button className="btn-sourcecode">View SourceCode</button></Link>
+                            <Link href="https://wondrous-kashata-803fb3.netlify.app/" isExternal><button className="btn-getdemo">Get Demo</button></Link>
                         </div>
                     </div>
                 </div>
