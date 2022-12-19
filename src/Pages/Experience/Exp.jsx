@@ -70,7 +70,10 @@ function Exp() {
                         <div className="proj-tools">
                             <h2 className="tools-specs" >ReactJS</h2>
                             <h2 className="tools-specs">JavaScript</h2>
-                            <h2 className="tools-specs">React-Icons</h2>
+                            <h2 className="tools-specs">Chakra-UI</h2>
+                            <h2 className="tools-specs">Firebase</h2>
+                            <h2 className="tools-specs">Render(backend)</h2>
+                            <h2 className="tools-specs">React-Carousel</h2>
                         </div>
                         <h4 style={{fontSize:"25px", marginTop:"10px", fontWeight:"400"}}>Summary:</h4>
                         <h5 style={{fontSize:"18px",marginTop:"10px"}}>This is a Collabrative-Project where I have made the home and Demo page. In Home page you will be adle to see various Entertainment Category where if you click on trailer button you can see demo of that particular show.</h5>
