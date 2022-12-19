@@ -78,6 +78,13 @@
     margin-bottom: 20px;
 }
 
+.project-container2{
+    display: flex;
+    flex-direction: row;
+    gap: 25px; 
+    margin-top: 30px;
+}
+
 @media screen and (max-width: 1000px) {
     .project-container{
         flex-direction: column;

@@ -1,6 +1,7 @@
 import project1 from "../../Images/project1.png";
-// import project2 from "../../Images/project2.png";
 import project3 from "../../Images/project3.png";
+import project4 from '../../Images/Project4.png';
+import project5 from '../../Images/Project5.png';
 import { Link } from "@chakra-ui/react";
 import "./Exp.css";
 
@@ -41,6 +42,38 @@ function Exp() {
                         </div>
                         <h4 style={{fontSize:"25px", marginTop:"10px", fontWeight:"400"}}>Summary:</h4>
                         <h5 style={{fontSize:"18px",marginTop:"10px"}}>This is a Fashion E-commerce Website. In this website I have shown complete working cart functionality. I have also made Admin side where you can see the customers list and do crud operations there.</h5>
+                        <div className="d-flex flex-row justify-content-center mt-5 toolbtndiv">
+                            <Link href="https://github.com/crusher8010/E-shop-e-commerce" isExternal><button className="btn-sourcecode">View SourceCode</button></Link>
+                            <Link href="https://wondrous-kashata-803fb3.netlify.app/" isExternal><button className="btn-getdemo">Get Demo</button></Link>
+                        </div>
+                    </div>
+                </div>
+                <div className="project-container2">
+                    <div className="proj-cont1">
+                        <h1 style={{ fontSize: "30px", fontWeight: "600", textAlign: "center", marginBottom: "10px", color: "#fff000" }}>Weather Forecast App</h1>
+                        <img style={{ width: "100%", height: "250px", margin: "auto", borderRadius:"10px" }} src={project4} alt="proj1" />
+                        <div className="proj-tools">
+                            <h2 className="tools-specs" >HTML</h2>
+                            <h2 className="tools-specs">CSS</h2>
+                            <h2 className="tools-specs">JavaScript</h2>
+                        </div>
+                        <h4 style={{fontSize:"25px", marginTop:"10px", fontWeight:"400"}}>Summary:</h4>
+                        <h5 style={{fontSize:"18px", marginTop:"10px"}}>This is an Individual Project where you are able to see weather forecast of different location. This Website will also give next-four days weather report and whole day report.</h5>
+                        <div className="d-flex flex-row justify-content-center mt-5 toolbtndiv">
+                            <Link href="https://github.com/crusher8010/Weather-App" isExternal><button className="btn-sourcecode">View SourceCode</button></Link>
+                            <Link href="https://illustrious-syrniki-360eaa.netlify.app/" isExternal><button className="btn-getdemo">Get Demo</button></Link>
+                        </div>
+                    </div>
+                    <div className="proj-cont1">
+                        <h1 style={{ fontSize: "30px", fontWeight: "600", textAlign: "center", marginBottom: "10px", color: "#fff000" }}>React Todo App</h1>
+                        <img style={{ width: "100%", height: "250px", margin: "auto", borderRadius:"10px" }} src={project5} alt="proj1" />
+                        <div className="proj-tools">
+                            <h2 className="tools-specs" >ReactJS</h2>
+                            <h2 className="tools-specs">JavaScript</h2>
+                            <h2 className="tools-specs">React-Icons</h2>
+                        </div>
+                        <h4 style={{fontSize:"25px", marginTop:"10px", fontWeight:"400"}}>Summary:</h4>
+                        <h5 style={{fontSize:"18px",marginTop:"10px"}}>This is a Todo-App where You Can perform all Crud Operations with the help of React-hooks.</h5>
                         <div className="d-flex flex-row justify-content-center mt-5 toolbtndiv">
                             <Link href="https://github.com/crusher8010/E-shop-e-commerce" isExternal><button className="btn-sourcecode">View SourceCode</button></Link>
                             <Link href="https://wondrous-kashata-803fb3.netlify.app/" isExternal><button className="btn-getdemo">Get Demo</button></Link>
