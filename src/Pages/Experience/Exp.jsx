@@ -65,7 +65,7 @@ function Exp() {
                         </div>
                     </div>
                     <div className="proj-cont1">
-                        <h1 style={{ fontSize: "30px", fontWeight: "600", textAlign: "center", marginBottom: "10px", color: "#fff000" }}>React Todo App</h1>
+                        <h1 style={{ fontSize: "30px", fontWeight: "600", textAlign: "center", marginBottom: "10px", color: "#fff000" }}>Zee App</h1>
                         <img style={{ width: "100%", height: "250px", margin: "auto", borderRadius:"10px" }} src={project5} alt="proj1" />
                         <div className="proj-tools">
                             <h2 className="tools-specs" >ReactJS</h2>
@@ -73,10 +73,10 @@ function Exp() {
                             <h2 className="tools-specs">React-Icons</h2>
                         </div>
                         <h4 style={{fontSize:"25px", marginTop:"10px", fontWeight:"400"}}>Summary:</h4>
-                        <h5 style={{fontSize:"18px",marginTop:"10px"}}>This is a Todo-App where You Can perform all Crud Operations with the help of React-hooks.</h5>
+                        <h5 style={{fontSize:"18px",marginTop:"10px"}}>This is a Collabrative-Project where I have made the home and Demo page. In Home page you will be adle to see various Entertainment Category where if you click on trailer button you can see demo of that particular show.</h5>
                         <div className="d-flex flex-row justify-content-center mt-5 toolbtndiv">
-                            <Link href="https://github.com/crusher8010/E-shop-e-commerce" isExternal><button className="btn-sourcecode">View SourceCode</button></Link>
-                            <Link href="https://wondrous-kashata-803fb3.netlify.app/" isExternal><button className="btn-getdemo">Get Demo</button></Link>
+                            <Link href="https://github.com/rittik24/vestal-oil-7361/tree/main/zee" isExternal><button className="btn-sourcecode">View SourceCode</button></Link>
+                            <Link href="https://kaleidoscopic-alpaca-f60e4a.netlify.app/" isExternal><button className="btn-getdemo">Get Demo</button></Link>
                         </div>
                     </div>
                 </div>
