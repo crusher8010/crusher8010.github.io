@@ -81,7 +81,7 @@
 
 .btn-hire-me:hover{
     transform: translateY(-5px);
-    background-color: orange;
+    background-color: #fff000;
     color: #333;
 }
 

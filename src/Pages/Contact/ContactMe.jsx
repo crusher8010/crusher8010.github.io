@@ -41,8 +41,8 @@ function ContactMe() {
                                 <Link href="https://www.linkedin.com/in/anirudha-mandal-b3ab5a18a/" isExternal><i className="fa-brands fa-linkedin"></i></Link>
                             </span>
                             <span className="profile-det">
-                                <h1>Email: anirudhamandal8010@gmail.com</h1>
-                                <h1>Contact no: 9511817488</h1>
+                                <h1>Email: <span style={{color:'#fffb00'}}>anirudhamandal8010@gmail.com</span></h1>
+                                <h1>Contact no: <span style={{color:'#fffb00'}}>9511817488</span></h1>
                             </span>
                             <div className="py-5 d-flex justify-content-center lottie2">
                                 <lottie-player className="lottie1" src="https://assets10.lottiefiles.com/packages/lf20_3ktmthuy.json" background="transparent" speed="1" style={{ width: "300px" }} loop autoplay></lottie-player>

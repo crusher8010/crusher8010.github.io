@@ -40,7 +40,7 @@ const Home = () => {
                     <span className="Im-text-subHeading">Knack of building applications with front and back end operations</span>
                     <div className="d-flex flex-row justify-content-center mt-5 btndiv">
                         <Link href="#contactme"><button className="btn-hire-me">Hire me</button></Link>
-                        <Link href="Anirudha.pdf" download={"resume Anirudha.pdf"} isExternal><button className="btn-resume-me">Get Resume</button></Link>
+                        <Link href="Anirudha-Mandal-Resume.pdf" download={"Anirudha-Mandal-Resume.pdf"} isExternal><button className="btn-resume-me">Get Resume</button></Link>
                     </div>
                 </div>
             </div>

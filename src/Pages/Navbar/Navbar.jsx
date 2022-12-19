@@ -11,8 +11,8 @@ function Navbar(){
       <div className={isMob ? "nav-links-mob": "nav-links"} onClick={() => setIsMob(false)}>
         <a href="#homepage" ><h4 className="Home">Home</h4></a>
         <a href="#aboutme" ><h4 className="AboutMe">About Me</h4></a>
-        <a href="#github" ><h4 className="skills">Skills</h4></a>
         <a href="#resume" ><h4 className="Resume">Resume</h4></a>
+        <a href="#github" ><h4 className="skills">Skills</h4></a>
         <a href="#Projects" ><h4 className="Projects">Projects</h4></a>
         <a href="#contactme"><h4 className="ContactMe">Contact Me</h4></a>
       </div>

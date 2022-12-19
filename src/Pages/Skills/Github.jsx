@@ -92,7 +92,7 @@ function Github() {
 
             <h1 className="programingskills-heading">Github Status</h1>
             <Box className="git-calen" >
-                <GitHubCalendar username="crusher8010" />
+                <GitHubCalendar style={{margin: "auto"}} fontSize={20} username="crusher8010" />
             </Box>
 
             <div className="git-status">
