@@ -4,7 +4,22 @@ import Typed from "typed.js";
 import { useRef, useEffect } from "react";
 
 const Home = () => {
-    const el = useRef(null)
+    const el = useRef(null);
+
+    const onButtonClick = () => {
+        // using Java Script method to get PDF file
+        fetch('Anirudha_Mandal_Resume.pdf').then(response => {
+            response.blob().then(blob => {
+                // Creating new object of PDF file
+                const fileURL = window.URL.createObjectURL(blob);
+                // Setting various property values
+                let alink = document.createElement('a');
+                alink.href = fileURL;
+                alink.download = 'Anirudha_Mandal_Resume.pdf';
+                alink.click();
+            })
+        })
+    }
 
     useEffect(() => {
         const typed = new Typed(el.current, {
@@ -40,7 +55,7 @@ const Home = () => {
                     <span className="Im-text-subHeading">Knack of building applications with front and back end operations</span>
                     <div className="d-flex flex-row justify-content-center mt-5 btndiv">
                         <Link href="#contactme"><button className="btn-hire-me">Hire me</button></Link>
-                        <Link href="Anirudha-Mandal-Resume.pdf" download={"Anirudha-Mandal-Resume.pdf"} isExternal><button className="btn-resume-me">Get Resume</button></Link>
+                        <Link href="https://drive.google.com/file/d/1BHCWr6-X6vepObY2XOqcAv-kxEiFXAJf/view?usp=sharing" target={"_blank"}><button onClick={onButtonClick} className="btn-resume-me">Get Resume</button></Link>
                     </div>
                 </div>
             </div>
