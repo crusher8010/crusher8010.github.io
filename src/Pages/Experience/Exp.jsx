@@ -44,7 +44,7 @@ function Exp() {
                         <h5 style={{ fontSize: "18px", marginTop: "10px" }}>This is a Fashion E-commerce Website. In this website I have shown complete working cart functionality. I have also made Admin side where you can see the customers list and do crud operations there.</h5>
                         <div className="d-flex flex-row justify-content-center mt-5 toolbtndiv">
                             <Link href="https://github.com/crusher8010/E-shop-e-commerce" isExternal><button className="btn-sourcecode">View SourceCode</button></Link>
-                            <Link href="e-commerce-liart-chi.vercel.app/" isExternal><button className="btn-getdemo">Get Demo</button></Link>
+                            <Link href="https://e-commerce-liart-chi.vercel.app/" isExternal><button className="btn-getdemo">Get Demo</button></Link>
                         </div>
                     </div>
                 </div>
