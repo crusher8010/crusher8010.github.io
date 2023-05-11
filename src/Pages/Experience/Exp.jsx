@@ -25,7 +25,7 @@ function Exp() {
                         </div>
                         <h4 style={{ fontSize: "25px", marginTop: "10px", fontWeight: "400" }}>Summary:</h4>
                         <h5 style={{ fontSize: "18px", marginTop: "10px" }}>This is a Group Project made by all 5 members. We have taken reference from original website that Chargebee.com. In this project I have made home page and responsiveness of the navbar and Homepage. I have also used some css animations.</h5>
-                        <div className="d-flex flex-row justify-content-center mt-5 toolbtndiv">
+                        <div className=" toolbtndiv">
                             <Link href="https://github.com/crusher8010/Chargebee-Website-Clone" isExternal><button className="btn-sourcecode">View SourceCode</button></Link>
                             <Link href="https://resonant-licorice-2615de.netlify.app/" isExternal><button className="btn-getdemo">Get Demo</button></Link>
                         </div>
@@ -42,7 +42,7 @@ function Exp() {
                         </div>
                         <h4 style={{ fontSize: "25px", marginTop: "10px", fontWeight: "400" }}>Summary:</h4>
                         <h5 style={{ fontSize: "18px", marginTop: "10px" }}>This is a Fashion E-commerce Website. In this website I have shown complete working cart functionality. I have also made Admin side where you can see the customers list and do crud operations there.</h5>
-                        <div className="d-flex flex-row justify-content-center mt-5 toolbtndiv">
+                        <div className=" toolbtndiv">
                             <Link href="https://github.com/crusher8010/E-shop-e-commerce" isExternal><button className="btn-sourcecode">View SourceCode</button></Link>
                             <Link href="https://e-commerce-liart-chi.vercel.app/" isExternal><button className="btn-getdemo">Get Demo</button></Link>
                         </div>
@@ -59,7 +59,7 @@ function Exp() {
                         </div>
                         <h4 style={{ fontSize: "25px", marginTop: "10px", fontWeight: "400" }}>Summary:</h4>
                         <h5 style={{ fontSize: "18px", marginTop: "10px" }}>This is an Individual Project where you are able to see weather forecast of different location. This Website will also give next-four days weather report and whole day report.</h5>
-                        <div className="d-flex flex-row justify-content-center mt-5 toolbtndiv">
+                        <div className=" toolbtndiv">
                             <Link href="https://github.com/crusher8010/Weather-App" isExternal><button className="btn-sourcecode">View SourceCode</button></Link>
                             <Link href="https://illustrious-syrniki-360eaa.netlify.app/" isExternal><button className="btn-getdemo">Get Demo</button></Link>
                         </div>
@@ -72,12 +72,12 @@ function Exp() {
                             <h2 className="tools-specs">JavaScript</h2>
                             <h2 className="tools-specs">Chakra-UI</h2>
                             <h2 className="tools-specs">Firebase</h2>
-                            <h2 className="tools-specs">Render(backend)</h2>
-                            <h2 className="tools-specs">React-Carousel</h2>
+                            <h2 className="tools-specs">Render.com</h2>
+                            <h2 className="tools-specs">Carousel</h2>
                         </div>
                         <h4 style={{ fontSize: "25px", marginTop: "10px", fontWeight: "400" }}>Summary:</h4>
                         <h5 style={{ fontSize: "18px", marginTop: "10px" }}>This is a Collabrative-Project where I have made the home and Demo page. In Home page you will be adle to see various Entertainment Category where if you click on trailer button you can see demo of that particular show.</h5>
-                        <div className="d-flex flex-row justify-content-center mt-5 toolbtndiv">
+                        <div className=" toolbtndiv">
                             <Link href="https://github.com/rittik24/vestal-oil-7361/tree/main/zee" isExternal><button className="btn-sourcecode">View SourceCode</button></Link>
                             <Link href="https://kaleidoscopic-alpaca-f60e4a.netlify.app/" isExternal><button className="btn-getdemo">Get Demo</button></Link>
                         </div>

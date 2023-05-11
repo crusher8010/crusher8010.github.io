@@ -1,4 +1,4 @@
-.git-calen{
+.git-calen {
     width: 70%;
     display: flex;
     justify-content: center;
@@ -7,7 +7,7 @@
     font-size: 24px;
 }
 
-.git-status{
+.git-status {
     display: flex;
     width: 70%;
     margin: auto;
@@ -15,7 +15,7 @@
     margin-top: 25px;
 }
 
-.programingskills-heading{
+.programingskills-heading {
     font-family: "Ubuntu";
     font-weight: 800;
     font-size: 2rem;
@@ -24,7 +24,7 @@
     margin-top: 30px;
 }
 
-.skills-grid{
+.skills-grid {
     display: grid;
     width: 80%;
     grid-template-columns: repeat(4, 1fr);
@@ -36,7 +36,7 @@
     font-size: 1.3rem;
 }
 
-.skills-tag{
+.skills-tag {
     background: linear-gradient(-90deg, var(--primary-app-color), var(--secondary-app-color));
     color: #fff;
     padding-top: 12px;
@@ -45,31 +45,60 @@
     transition: all 0.3s ease-in-out;
 }
 
-.skills-tag:hover{
+.skills-tag:hover {
     transform: scale(1.12);
 }
 
-@media screen and (max-width: 1180px){
-    .git-calen{
+@media screen and (max-width: 1180px) {
+    .git-calen {
         width: 80%;
         margin: auto;
     }
 
-    .git-status{
+    .git-status {
         flex-direction: column;
         width: 80%;
         gap: 30px;
     }
 
-    .skills-grid{
+    .skills-grid {
         width: 90%;
         grid-template-columns: repeat(3, 1fr);
     }
 }
 
-@media screen and (max-width: 800px){
-    .skills-grid{
+@media screen and (max-width: 800px) {
+    .skills-grid {
         width: 80%;
         grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .git-calen {
+        /* width: 90%;
+        margin-top: 15px;
+        margin: auto; */
+        display: none;
+    }
+
+    .git-status {
+        flex-direction: column;
+        width: 90%;
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .skills-grid {
+        width: 90%;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .skills-grid {
+        width: 80%;
+        grid-template-columns: repeat(1, 1fr);
     }
 }
