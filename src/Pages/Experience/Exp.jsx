@@ -16,18 +16,23 @@ function Exp() {
             <div className="web-view ">
                 <div className="project-container">
                     <div className="proj-cont1">
-                        <h1 style={{ fontSize: "30px", fontWeight: "600", textAlign: "center", marginBottom: "10px", color: "#fff000" }}>ChargeBee Website Clone</h1>
+                        <h1 style={{ fontSize: "30px", fontWeight: "600", textAlign: "center", marginBottom: "10px", color: "#fff000" }}>Avira Shop</h1>
                         <img style={{ width: "100%", height: "250px", margin: "auto", borderRadius: "10px" }} src={project1} alt="proj1" />
                         <div className="proj-tools">
-                            <h2 className="tools-specs" >HTML</h2>
-                            <h2 className="tools-specs">CSS</h2>
+                            <h2 className="tools-specs" >HTML & CSS</h2>
                             <h2 className="tools-specs">JavaScript</h2>
+                            <h2 className="tools-specs">React</h2>
+                            <h2 className="tools-specs">Node.js</h2>
+                            <h2 className="tools-specs">Express</h2>
+                            <h2 className="tools-specs">MongoDB</h2>
+                            <h2 className="tools-specs">Firebase</h2>
+                            <h2 className="tools-specs">Chakra UI</h2>
                         </div>
                         <h4 style={{ fontSize: "25px", marginTop: "10px", fontWeight: "400" }}>Summary:</h4>
-                        <h5 style={{ fontSize: "18px", marginTop: "10px" }}>This is a Group Project made by all 5 members. We have taken reference from original website that Chargebee.com. In this project I have made home page and responsiveness of the navbar and Homepage. I have also used some css animations.</h5>
+                        <h5 style={{ fontSize: "18px", marginTop: "10px" }}>This is a Group Project made by all 5 members. We have taken reference from original website that Myntra. In this project I have made whole backend and Admin page section. For backend I have used Node.js, Express and MongoDB.</h5>
                         <div className=" toolbtndiv">
-                            <Link href="https://github.com/crusher8010/Chargebee-Website-Clone" isExternal><button className="btn-sourcecode">View SourceCode</button></Link>
-                            <Link href="https://resonant-licorice-2615de.netlify.app/" isExternal><button className="btn-getdemo">Get Demo</button></Link>
+                            <Link href="https://github.com/crusher8010/Avira-Shop" isExternal><button className="btn-sourcecode">View SourceCode</button></Link>
+                            <Link href="https://magenta-eclair-cf1ece.netlify.app/" isExternal><button className="btn-getdemo">Get Demo</button></Link>
                         </div>
                     </div>
                     <div className="proj-cont1">

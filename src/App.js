@@ -6,6 +6,7 @@ import Resume from './Pages/Resume/Resume';
 import Exp from './Pages/Experience/Exp';
 import ContactMe from './Pages/Contact/ContactMe';
 import Github from './Pages/Skills/Github';
+import Footer from './Pages/Footer/Footer';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Github />
       <Exp />
       <ContactMe />
+      <Footer />
     </div>
   );
 }
