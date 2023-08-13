@@ -5,8 +5,8 @@
 }
 
 .footerDiv {
-    padding-top: 50px;
-    width: 80%;
+    margin-top: 20px;
+    width: 30%;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -14,5 +14,42 @@
 
 .footerCopy {
     text-align: center;
-    margin-top: 30px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 1400px) {
+    .footerDiv {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .footerDiv {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .footerDiv {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .footerDiv {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .footerDiv {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .footerDiv {
+        width: 100%;
+        justify-content: space-around;
+    }
 }
