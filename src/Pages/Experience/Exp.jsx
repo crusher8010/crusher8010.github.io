@@ -21,11 +21,11 @@ function Exp() {
                         <img style={{ width: "100%", height: "250px", margin: "auto", borderRadius: "10px" }} src={project1} alt="proj1" />
                         <h4 style={{ fontSize: "22px", marginTop: "10px", fontWeight: "400" }}>Summary :</h4>
                         <h5 style={{ fontSize: "18px", marginTop: "10px" }}>This is a Group Project made by all 5 members. In this project I have made whole backend and Admin page section. For backend I have used Node.js, Express and MongoDB.</h5>
-                        <h4 style={{ fontSize: "22px", marginTop: "10px", fontWeight: "400" }}>Tech Stacks :</h4>
-                        <Stack direction='row' gap={3} mt={3}>
+
+                        <Stack direction='row' gap={3} mt={4}>
                             <Badge colorScheme='green'>HTML & CSS</Badge>
                             <Badge colorScheme='yellow'>JavaScript</Badge>
-                            <Badge colorScheme='green'>React</Badge>
+                            <Badge colorScheme='green'>ReactJS</Badge>
                             <Badge colorScheme='yellow'>Node.js</Badge>
                             <Badge colorScheme='green'>Firebase</Badge>
                             <Badge colorScheme='yellow'>Express</Badge>
@@ -42,8 +42,8 @@ function Exp() {
                         <img style={{ width: "100%", height: "250px", margin: "auto", borderRadius: "10px" }} src={project3} alt="proj1" />
                         <h4 style={{ fontSize: "22px", marginTop: "10px", fontWeight: "400" }}>Summary :</h4>
                         <h5 style={{ fontSize: "18px", marginTop: "10px" }}>This is a Fashion E-commerce Website. In this website I have shown complete working cart functionality. I have also made Admin side where you can see the customers list and do crud operations there.</h5>
-                        <h4 style={{ fontSize: "22px", marginTop: "10px", fontWeight: "400" }}>Tech Stacks :</h4>
-                        <Stack direction='row' gap={3} mt={3}>
+
+                        <Stack direction='row' gap={3} mt={4}>
                             <Badge colorScheme='green'>ReactJS</Badge>
                             <Badge colorScheme='yellow'>Render.com</Badge>
                             <Badge colorScheme='green'>HTML5 & CSS</Badge>
@@ -63,8 +63,8 @@ function Exp() {
                         <img style={{ width: "100%", height: "250px", margin: "auto", borderRadius: "10px" }} src={project4} alt="proj1" />
                         <h4 style={{ fontSize: "22px", marginTop: "10px", fontWeight: "400" }}>Summary:</h4>
                         <h5 style={{ fontSize: "18px", marginTop: "10px" }}>This is an Individual Project where you are able to see weather forecast of different location. This Website will also give next-four days weather report and whole day report.</h5>
-                        <h4 style={{ fontSize: "22px", marginTop: "10px", fontWeight: "400" }}>Tech Stacks :</h4>
-                        <Stack direction='row' gap={3} mt={3}>
+
+                        <Stack direction='row' gap={3} mt={4}>
                             <Badge colorScheme='green'>HTML5 & CSS</Badge>
                             <Badge colorScheme='yellow'>JavaScript</Badge>
                         </Stack>
@@ -79,8 +79,8 @@ function Exp() {
                         <img style={{ width: "100%", height: "250px", margin: "auto", borderRadius: "10px" }} src={project5} alt="proj1" />
                         <h4 style={{ fontSize: "22px", marginTop: "10px", fontWeight: "400" }}>Summary :</h4>
                         <h5 style={{ fontSize: "18px", marginTop: "10px" }}>This is a Collabrative-Project where I have made the home and Demo page. In Home page you will be adle to see various Entertainment Category and their demo.</h5>
-                        <h4 style={{ fontSize: "22px", marginTop: "10px", fontWeight: "400" }}>Tech Stacks :</h4>
-                        <Stack direction='row' gap={3} mt={3}>
+
+                        <Stack direction='row' gap={3} mt={4}>
                             <Badge colorScheme='green'>HTML5 & CSS</Badge>
                             <Badge colorScheme='yellow'>JavaScript</Badge>
                             <Badge colorScheme='green'>ReactJS</Badge>
