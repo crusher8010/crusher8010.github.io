@@ -55,7 +55,7 @@ const Home = () => {
                     <span className="Im-text-subHeading">Knack of building applications with front and back end operations</span>
                     <div className="d-flex flex-row justify-content-center mt-5 btndiv">
                         <Link href="#contactme"><button className="btn-hire-me">Hire me</button></Link>
-                        <Link href="https://drive.google.com/file/d/1BHCWr6-X6vepObY2XOqcAv-kxEiFXAJf/view?usp=sharing" target={"_blank"}><button onClick={onButtonClick} className="btn-resume-me">Get Resume</button></Link>
+                        <Link href="https://drive.google.com/file/d/1o9a5CpYQt1Wmv7x2y4yzitpk-FECAvSE/view?usp=drive_link" target={"_blank"}><button onClick={onButtonClick} className="btn-resume-me">Get Resume</button></Link>
                     </div>
                 </div>
             </div>
