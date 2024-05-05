@@ -22,19 +22,20 @@ function Exp() {
                         <h4 style={{ fontSize: "22px", marginTop: "10px", fontWeight: "400" }}>Summary :</h4>
                         <h5 style={{ fontSize: "18px", marginTop: "10px" }}>This is a Group Project made by all 5 members. In this project I have made whole backend and Admin page section. For backend I have used Node.js, Express and MongoDB.</h5>
 
-                        <Stack direction='row' gap={3} mt={4}>
-                            <Badge colorScheme='green'>HTML & CSS</Badge>
-                            <Badge colorScheme='yellow'>JavaScript</Badge>
-                            <Badge colorScheme='green'>ReactJS</Badge>
-                            <Badge colorScheme='yellow'>Node.js</Badge>
-                            <Badge colorScheme='green'>Firebase</Badge>
-                            <Badge colorScheme='yellow'>Express</Badge>
-                            <Badge colorScheme='green'>MongoDB</Badge>
-                        </Stack>
+                        <div className="proj-tools">
+                            <h2 className="skillsField1" >HTML5 & CSS</h2>
+                            <h2 className="skillsField2">JavaScript</h2>
+                            <h2 className="skillsField1">ReactJS</h2>
+                            <h2 className="skillsField2">Node.js</h2>
+                            <h2 className="skillsField1">Express</h2>
+                            <h2 className="skillsField2">MongoDB</h2>
+                            <h2 className="skillsField1">Firebase</h2>
+                            <h2 className="skillsField2">Chakra UI</h2>
+                        </div>
 
                         <div className=" toolbtndiv">
                             <Link href="https://github.com/crusher8010/Avira-Shop" isExternal><button className="btn-sourcecode">Github Link <i className="fa-brands fa-github"></i></button></Link>
-                            <Link href="https://magenta-eclair-cf1ece.netlify.app/" isExternal><button className="btn-getdemo">Demo Link <i class="fa-solid fa-rocket"></i></button></Link>
+                            <Link href="https://magenta-eclair-cf1ece.netlify.app/" isExternal><button className="btn-getdemo">Demo Link <i className="fa-solid fa-rocket"></i></button></Link>
                         </div>
                     </div>
                     <div className="proj-cont1">
@@ -43,17 +44,17 @@ function Exp() {
                         <h4 style={{ fontSize: "22px", marginTop: "10px", fontWeight: "400" }}>Summary :</h4>
                         <h5 style={{ fontSize: "18px", marginTop: "10px" }}>This is a Fashion E-commerce Website. In this website I have shown complete working cart functionality. I have also made Admin side where you can see the customers list and do crud operations there.</h5>
 
-                        <Stack direction='row' gap={3} mt={4}>
-                            <Badge colorScheme='green'>ReactJS</Badge>
-                            <Badge colorScheme='yellow'>Render.com</Badge>
-                            <Badge colorScheme='green'>HTML5 & CSS</Badge>
-                            <Badge colorScheme='yellow'>JavaScript</Badge>
-                            <Badge colorScheme='green'>Chakra UI</Badge>
-                            <Badge colorScheme='yellow'>React-slick</Badge>
-                        </Stack>
+                        <div className="proj-tools">
+                            <h2 className="skillsField1" >HTML5 & CSS</h2>
+                            <h2 className="skillsField2">JavaScript</h2>
+                            <h2 className="skillsField1">ReactJS</h2>
+                            <h2 className="skillsField2">Chakra UI</h2>
+                            <h2 className="skillsField1">React-slick</h2>
+                        </div>
+
                         <div className=" toolbtndiv">
                             <Link href="https://github.com/crusher8010/E-shop-e-commerce" isExternal><button className="btn-sourcecode">Github Link <i className="fa-brands fa-github"></i></button></Link>
-                            <Link href="https://e-commerce-liart-chi.vercel.app/" isExternal><button className="btn-getdemo">Demo Link <i class="fa-solid fa-rocket"></i></button></Link>
+                            <Link href="https://e-commerce-liart-chi.vercel.app/" isExternal><button className="btn-getdemo">Demo Link <i className="fa-solid fa-rocket"></i></button></Link>
                         </div>
                     </div>
                 </div>
@@ -64,14 +65,14 @@ function Exp() {
                         <h4 style={{ fontSize: "22px", marginTop: "10px", fontWeight: "400" }}>Summary:</h4>
                         <h5 style={{ fontSize: "18px", marginTop: "10px" }}>This is an Individual Project where you are able to see weather forecast of different location. This Website will also give next-four days weather report and whole day report.</h5>
 
-                        <Stack direction='row' gap={3} mt={4}>
-                            <Badge colorScheme='green'>HTML5 & CSS</Badge>
-                            <Badge colorScheme='yellow'>JavaScript</Badge>
-                        </Stack>
+                        <div className="proj-tools">
+                            <h2 className="skillsField1" >HTML5 & CSS</h2>
+                            <h2 className="skillsField2">JavaScript</h2>
+                        </div>
 
                         <div className=" toolbtndiv">
                             <Link href="https://github.com/crusher8010/Weather-App" isExternal><button className="btn-sourcecode">Github Link <i className="fa-brands fa-github"></i></button></Link>
-                            <Link href="https://illustrious-syrniki-360eaa.netlify.app/" isExternal><button className="btn-getdemo">Demo Link <i class="fa-solid fa-rocket"></i></button></Link>
+                            <Link href="https://illustrious-syrniki-360eaa.netlify.app/" isExternal><button className="btn-getdemo">Demo Link <i className="fa-solid fa-rocket"></i></button></Link>
                         </div>
                     </div>
                     <div className="proj-cont1">
@@ -80,17 +81,17 @@ function Exp() {
                         <h4 style={{ fontSize: "22px", marginTop: "10px", fontWeight: "400" }}>Summary :</h4>
                         <h5 style={{ fontSize: "18px", marginTop: "10px" }}>This is a Collabrative-Project where I have made the home and Demo page. In Home page you will be adle to see various Entertainment Category and their demo.</h5>
 
-                        <Stack direction='row' gap={3} mt={4}>
-                            <Badge colorScheme='green'>HTML5 & CSS</Badge>
-                            <Badge colorScheme='yellow'>JavaScript</Badge>
-                            <Badge colorScheme='green'>ReactJS</Badge>
-                            <Badge colorScheme='yellow'>Chakra-UI</Badge>
-                            <Badge colorScheme='green'>Firebase</Badge>
-                            <Badge colorScheme='yellow'>Render.com</Badge>
-                        </Stack>
+                        <div className="proj-tools">
+                            <h2 className="skillsField1" >HTML5 & CSS</h2>
+                            <h2 className="skillsField2">JavaScript</h2>
+                            <h2 className="skillsField1">ReactJS</h2>
+                            <h2 className="skillsField2">Chakra UI</h2>
+                            <h2 className="skillsField1">Firebase</h2>
+                        </div>
+
                         <div className=" toolbtndiv">
                             <Link href="https://github.com/rittik24/vestal-oil-7361/tree/main/zee" isExternal><button className="btn-sourcecode">Github Link <i className="fa-brands fa-github"></i></button></Link>
-                            <Link href="https://kaleidoscopic-alpaca-f60e4a.netlify.app/" isExternal><button className="btn-getdemo">Demo Link <i class="fa-solid fa-rocket"></i></button></Link>
+                            <Link href="https://kaleidoscopic-alpaca-f60e4a.netlify.app/" isExternal><button className="btn-getdemo">Demo Link <i className="fa-solid fa-rocket"></i></button></Link>
                         </div>
                     </div>
                 </div>

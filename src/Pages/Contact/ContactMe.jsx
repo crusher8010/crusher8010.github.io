@@ -48,7 +48,7 @@ function ContactMe() {
                                 <lottie-player className="lottie1" src="https://assets10.lottiefiles.com/packages/lf20_3ktmthuy.json" background="transparent" speed="1" style={{ width: "300px" }} loop autoplay></lottie-player>
                             </div>
                         </div>
-                        <div className="col-lg-6 col-md-5 col-sm-12 my-auto">
+                        <div className="col-lg-6 col-md-5 col-sm-12 my-auto" >
                             <form ref={form} className="d-flex flex-column card-contact-right" onSubmit={sendEmail}>
                                 <div className="input-group my-3 d-flex flex-column">
                                     <label> Name </label>

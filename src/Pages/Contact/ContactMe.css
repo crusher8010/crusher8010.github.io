@@ -79,7 +79,10 @@
     }
 
     .my-auto{
-        width: 100%;
+        width: 94%;
+        display: block;
+        margin: auto;
+        margin-bottom: 2em !important;
     }
 }
 

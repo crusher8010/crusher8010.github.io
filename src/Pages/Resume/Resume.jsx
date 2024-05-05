@@ -30,10 +30,10 @@ function Resume(){
             <div className="resume-new-section row"  style={{width:"70%", marginInline:"auto"}}>
                 <div className="col-lg-4 col-md-4 col-sm-12 resume-left-section d-flex px-0 shadow-lg flex-row">
                     <div className="d-flex flex-column bg-new text-white">
-                        <span className="icons-span"><i class="fa-solid fa-user-graduate"></i></span>
-                        <span className="icons-span"><i class="fa-solid fa-landmark"></i></span>
-                        {/* <span className="icons-span"><i class="fa-solid fa-code"></i></span> */}
-                        <span className="icons-span"><i class="fa-solid fa-list-check"></i></span>
+                        <span className="icons-span"><i className="fa-solid fa-user-graduate"></i></span>
+                        <span className="icons-span"><i className="fa-solid fa-landmark"></i></span>
+                        {/* <span className="icons-span"><i className="fa-solid fa-code"></i></span> */}
+                        <span className="icons-span"><i className="fa-solid fa-list-check"></i></span>
                     </div>
                     <div className="d-flex flex-column ">
                         <span className={education === false ? "resume-options-items": "selected resume-options-items"} onClick={() => handleState(setEducation, true)}>Education{" "}</span>

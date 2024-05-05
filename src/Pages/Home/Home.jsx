@@ -8,14 +8,14 @@ const Home = () => {
 
     const onButtonClick = () => {
         // using Java Script method to get PDF file
-        fetch('fw20_0513_Anirudha_Mandal_Resume.pdf').then(response => {
+        fetch('Anirudha_Mandal_Resume.pdf').then(response => {
             response.blob().then(blob => {
                 // Creating new object of PDF file
                 const fileURL = window.URL.createObjectURL(blob);
                 // Setting various property values
                 let alink = document.createElement('a');
                 alink.href = fileURL;
-                alink.download = 'fw20_0513_Anirudha_Mandal_Resume.pdf';
+                alink.download = 'Anirudha_Mandal_Resume.pdf';
                 alink.click();
             })
         })
@@ -41,30 +41,80 @@ const Home = () => {
     }, [])
 
     return (
-        <div className="home row justify-content-center" id="homepage">
-            <div className="col-lg-6 col-md-6 col-sm-12">
-                <div className="d-flex flex-column justify-content-center Im-text-section">
-                    <span className="profile-links">
-                        <Link href="https://github.com/crusher8010" isExternal><i className="fa-brands fa-github"></i></Link>
-                        <Link href="https://www.linkedin.com/in/anirudha-mandal-b3ab5a18a/" isExternal><i className="fa-brands fa-linkedin"></i></Link>
-                    </span>
-                    <span className="Im-text">
-                        Hello, I am <span className="name-Im-text">Anirudha Mandal</span>
-                    </span>
-                    <span className="Im-text-enthusiastic py-2" style={{ minHeight: "75px" }} ref={el}></span>
-                    <span className="Im-text-subHeading">Knack of building applications with front and back end operations</span>
-                    <div className="d-flex flex-row justify-content-center mt-5 btndiv">
-                        <Link href="#contactme"><button className="btn-hire-me">Hire me</button></Link>
-                        <Link href="https://drive.google.com/file/d/1o9a5CpYQt1Wmv7x2y4yzitpk-FECAvSE/view?usp=drive_link" target={"_blank"}><button onClick={onButtonClick} className="btn-resume-me">Get Resume</button></Link>
-                    </div>
-                </div>
-            </div>
-            <div className="col-lg-6 col-md-6 col-sm-12">
-                <div className="d-flex justify-content-center outerdiv">
-                    <img className="img-fluid custom-img" src="https://avatars.githubusercontent.com/u/107460084?v=4" alt="AniImage" />
-                </div>
-            </div>
-        </div>
+        // <div className="home row justify-content-center" id="homepage">
+        //     <div className="col-lg-6 col-md-6 col-sm-12">
+        //         <div className="d-flex flex-column justify-content-center Im-text-section">
+        //             <span className="profile-links">
+        //                 <Link href="https://github.com/crusher8010" isExternal><i className="fa-brands fa-github"></i></Link>
+        //                 <Link href="https://www.linkedin.com/in/anirudha-mandal-b3ab5a18a/" isExternal><i className="fa-brands fa-linkedin"></i></Link>
+        //             </span>
+        //             <span className="Im-text">
+        //                 Hello, I am <span className="name-Im-text">Anirudha Mandal</span>
+        //             </span>
+        //             <span className="Im-text-enthusiastic py-2" style={{ minHeight: "75px" }} ref={el}></span>
+        //             <span className="Im-text-subHeading">Knack of building applications with front and back end operations</span>
+        //             <div className="d-flex flex-row justify-content-center mt-5 btndiv">
+        //                 <Link href="#contactme"><button className="btn-hire-me">Hire me</button></Link>
+        //                 <Link href="https://drive.google.com/file/d/1o9a5CpYQt1Wmv7x2y4yzitpk-FECAvSE/view?usp=drive_link" target={"_blank"}><button onClick={onButtonClick} className="btn-resume-me">Get Resume</button></Link>
+        //             </div>
+        //         </div>
+        //     </div>
+        //     <div className="col-lg-6 col-md-6 col-sm-12">
+        //         <div className="d-flex justify-content-center outerdiv">
+        //             <img className="img-fluid custom-img" src="https://avatars.githubusercontent.com/u/107460084?v=4" alt="AniImage" />
+        //         </div>
+        //     </div>
+        // </div>
+
+<div className="home" id="homepage">
+<div className="home-container">
+  <div className="d-flex flex-column justify-content-center Im-text-section">
+    <span className="profile-links">
+      <Link href="https://github.com/crusher8010" isExternal>
+        <i className="fa-brands fa-github"></i>
+      </Link>
+      <Link
+        href="https://www.linkedin.com/in/anirudha-mandal-b3ab5a18a/"
+        isExternal
+      >
+        <i className="fa-brands fa-linkedin"></i>
+      </Link>
+    </span>
+    <span className="Im-text">
+      Hello, I am <span className="name-Im-text">Anirudha Mandal</span>
+    </span>
+    <span
+      className="Im-text-enthusiastic py-2"
+      style={{ minHeight: "75px" }}
+      ref={el}
+    ></span>
+    <span className="Im-text-subHeading">
+      Knack of building applications with front and back end operations
+    </span>
+    <div className="d-flex flex-row justify-content-center mt-5 btndiv">
+      <Link href="#contactme">
+        <button className="btn-hire-me">Contact me</button>
+      </Link>
+      <Link
+      
+        href="https://drive.google.com/file/d/1Wx9utsKXkvCZmNtX-WEbgjk7i-KZhnDJ/view?usp=sharing"
+        target={"_blank"}
+      >
+        <button onClick={onButtonClick} className="btn-resume-me">
+          Get Resume
+        </button>
+      </Link>
+    </div>
+  </div>
+  <div className="right-img">
+    <img
+      className="img-fluid custom-img"
+      src="https://avatars.githubusercontent.com/u/107460084?v=4"
+      alt="gpImage"
+    />
+  </div>
+</div>
+</div>
     )
 }
 

@@ -1,72 +1,88 @@
-:root{
+:root {
     --primary-app-color: #02203c;
     --secondary-app-color: #001528;
-}
-
-.home{
-    
-    display: flex;
-    padding-top: 60px;
-    
-    background: linear-gradient(-90deg, var(--primary-app-color), var(--secondary-app-color));
-    
-}
-
-.profile-links{
+  }
+  
+  .home {
+    width: 100%;
+    background: linear-gradient(
+      -90deg,
+      var(--primary-app-color),
+      var(--secondary-app-color)
+    );
+  }
+  
+  .home-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+    width: 90%;
+    padding: 20px;
+    margin: auto;
+  }
+  
+  
+  .right-img{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .profile-links {
     display: flex;
     color: #fff;
     justify-content: center;
     font-size: 3rem;
     gap: 30px;
-}
-
-.fa-github{
+  }
+  
+  .fa-github {
     transition: all 0.3s ease-in-out;
-}
-
-.fa-github:hover{
-    color:#fffb00
-}
-
-.fa-linkedin{
+  }
+  
+  .fa-github:hover {
+    color: #fffb00;
+  }
+  
+  .fa-linkedin {
     transition: all 0.3s ease-in-out;
-}
-
-.fa-linkedin:hover{
-    color:#fffb00
-}
-
-
-.Im-text-section{
+  }
+  
+  .fa-linkedin:hover {
+    color: #fffb00;
+  }
+  
+  .Im-text-section {
     padding-top: 52px;
     text-align: center;
-}
-
-.Im-text{
+  }
+  
+  .Im-text {
     font-family: "Ubuntu";
     color: #fff;
     font-weight: 700;
     font-size: 1.4rem;
-}
-
-.name-Im-text{
+  }
+  
+  .name-Im-text {
     color: #fffb00;
     font-size: 30px;
-}
-
-.Im-text-enthusiastic{
+  }
+  
+  .Im-text-enthusiastic {
     font-family: sans-serif;
     color: white;
-    font-size: 2.5rem;
-}
-
-.Im-text-subHeading{
+    font-size: 2rem;
+  }
+  
+  .Im-text-subHeading {
     font-family: "Open sans";
     color: #fff;
     font-size: 1.4rem;
-}
-
-.btn-hire-me{
+  }
+  
+  .btn-hire-me {
     font-size: 1.3rem;
     font-family: "Ubuntu";
     color: #fff;
@@ -77,15 +93,15 @@
     border: 2px solid white;
     transition: all 0.3s ease-in-out;
     animation: Anim 1s ease-in-out infinite;
-}
-
-.btn-hire-me:hover{
+  }
+  
+  .btn-hire-me:hover {
     transform: translateY(-5px);
     background-color: #fff000;
     color: #333;
-}
-
-.btn-resume-me {
+  }
+  
+  .btn-resume-me {
     font-size: 1.3rem;
     font-family: "Ubuntu";
     color: #fff;
@@ -96,43 +112,54 @@
     margin-inline: 12px;
     border: 2px solid #333;
     transition: all 0.3s ease-in-out;
-}
-
-.btn-resume-me:hover{
+  }
+  
+  .btn-resume-me:hover {
     transform: translateY(-5px);
-}
-
-.btndiv{
+  }
+  
+  .btndiv {
     margin-bottom: 60px;
-}
-
-@keyframes Anim {
-    0%{
-        transform: scale(1)
+  }
+  
+  @keyframes Anim {
+    0% {
+      transform: scale(1);
     }
-
-    50%{
-        transform: scale(1.1)
+  
+    50% {
+      transform: scale(1.1);
     }
-
-    100%{
-        transform: scale(1)
+  
+    100% {
+      transform: scale(1);
     }
-}
-
-.custom-img{
+  }
+  
+  .custom-img {
     width: 300px;
-    border-radius: 50%;
+    border-radius: 15%;
     display: flex;
     justify-content: center;
-}
-
-.outerdiv{
+  }
+  
+  .outerdiv {
     margin-bottom: 60px;
-}
-
-@media screen and (max-width: 1180px){
-    .btn-hire-me{
-        animation: none;
+  }
+  
+  @media screen and (max-width: 1180px) {
+    .btn-hire-me {
+      animation: none;
     }
-}
+  
+  }
+  
+  @media screen and (max-width: 778px) {
+      .home-container {
+          display: grid;
+          grid-template-columns: repeat(1, 1fr);
+          grid-template-rows: auto;
+          width: 90%;
+          margin: auto;
+        }
+  }

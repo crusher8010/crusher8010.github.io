@@ -27,10 +27,10 @@
 }
 
 .proj-tools {
-    width: 80%;
+    /* width: 80%; */
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     margin-top: 15px;
     gap: 10px;
 }
@@ -96,6 +96,10 @@
         flex-direction: column;
     }
 
+    .proj-tools{
+        grid-template-columns: repeat(6, 1fr) !important;
+    }
+
     .project-container2 {
         flex-direction: column;
     }
@@ -134,5 +138,54 @@
     .toolbtndiv {
         flex-direction: column;
         align-items: center;
+    }
+}
+
+@media screen and (max-width: 1265px) {
+    .proj-tools{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+.skillsField1{
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 2px 4px;
+    border-radius: 2px;
+    border: none;
+    background-color: #c6f6d5;
+    color: #22543D;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.skillsField2{
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 2px 4px;
+    border-radius: 2px;
+    border: none;
+    background-color: #fefcbf;
+    color: #744210;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+
+.skillTech{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: auto;
+}
+
+@media screen and (max-width: 750px) {
+    .proj-tools{
+        grid-template-columns: repeat(5, 1fr) !important;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .proj-tools{
+        grid-template-columns: repeat(4, 1fr) !important;
     }
 }
